@@ -18,7 +18,7 @@ call_center_sdf <- spark_read_csv(sc,
 call_center_sdf
 
 ## Dplyr Verbs
-# Select 
+# Select sro0003
 call_center_sdf %>% 
   select(firstn, lastn)
 
