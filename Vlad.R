@@ -1,6 +1,6 @@
 library(dplyr)
 library(sparklyr)
-library(DBI)
+library(DBI) #> dbGetQuery
 
 sc <- spark_connect(master = "local")
 
